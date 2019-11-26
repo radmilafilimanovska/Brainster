@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proekt 1</title>
+  <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Project 1">
+    <meta name="keywords" content="brainster project">
+    <meta name="author" content="Radmila Filimanovska">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+ 
+</head>
+
+<body>
+  <!-- this is sidenav -->
+    <div id="main"> </div>
+    <div id="mySidenav" class="sidenav" style="padding: inherit;">
+        <div class="row forflex">    
+            <div class="col-md-2"><img src="sliki/logo.png" width="95px" class="img" height="32px" style="margin-top: 19px"></div>
+            <div class="col-md-10">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="display: inline-flex;">&times;
+                    <p style="font-size: 15px; margin-top: 14px">Затвори</p>
+                </a>
+            </div>
+        </div>
+        <a href="#"
+            style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4; margin-top: 60px"><b>Регистрирај
+                се</b></a>
+            <a href="#" style="font-size: 15px; color: rgb(252, 210, 50); border-bottom: 1px solid #DFD6D4"><b>Најави се
+            </b></a>
+            <a href="#" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Регистрирај се</b></a>
+            <a href="#" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>За нас</b></a>
+            <a href="#" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Галерија</b></a>
+            <a href="#" style="font-size: 15px; color: black; border-bottom: 1px solid #DFD6D4"><b>Контакт</b></a>    
+    </div>
+
+  <!-- this is navbar -->
+  <nav class="nav navColor navbar-fixed-top" style="z-index:1">
+    <div class="container-fluid navFlex">
+      <div class="flex">     
+        <div class="navbar-header" style="width: 38%";>         
+          <a class="navbar-brand logo" style="color:rgb(255, 230, 0);" onclick="openNav()"
+          href="#"><i class="fas fa-bars"></i>
+          Мени</a>         
+        </div>
+        <div class="nav navbar-nav navbar-center text-center">
+          <a href="#" class="text-center" id="home"><img src="sliki/logo.png" class="navLogo img img-responsive"></a>
+        </div>       
+        <div class="collapse navbar-collapse navbar-right rightButtonGroup" id="bs-example-navbar-collapse-1" style="width: 38%";>
+           <div class="navbar-form navbar-right"> 
+              <div class="navbar-form navbar-right">
+                <a href="https://www.brainster.io/business" target="_blank" class="btOne btn"><strong>Обуки за компании</strong></a>
+                <a href="https://www.brainster.io/business" target="_blank" class="btTwo btn"><strong>Вработи наши студенти</strong></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>  
+
+
+  <div class="container-fluid">
+      <!-- this is first purple paragraph -->
+     <div class="row bgPurpMain"  href="#home"> 
+        <div class="col-md-6 col-md-offset-3 text-center landing1">
+            <p>Изработено од студенти на академијата за програмирање на <span><a href="http://codepreneurs.co/"
+            target="_blank" style="color: rgb(252, 210, 50);">Brainster</a></span></p>
+            <div class="visible-xs col-xs-12 btMob text-center">
+                <a href="https://www.brainster.io/business" target="_blank" class="btn btOne"><strong>Обуки за компании</strong></a><span>
+                <a href="https://www.brainster.io/business" target="_blank" class="btn btTwo"><strong>Вработи наши студенти</strong></a></span>
+             </div>
+        </div>      
+        <div class="col-md-8 col-md-offset-2 text-center landing">
+          <h1><STRONG>FUTURE-PROOF YOUR ORGANISATION</STRONG></h1>
+        </div>      
+        <div class="col-md-6 col-md-offset-3 text-center landingP">
+          <p>Find out how to unlock progress in your business. Understand your current state, identify<br>
+            opportunity areas and prepare to take charge of your organisation's future.
+          </p>
+        </div>
+        <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 text-center">
+            <a class="btn btn-lg landingBtn" href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank"><strong>TAKE THE ASSESMENT</strong></a>
+        </div>
+    </div>
+    
+<!-- this is first row cards -->
+<div class="row bgGradient">
+     <div class="container cont1">
+      <div class="row rowMarginTop">
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <a href="card16.html">
+            <img src="https://cdn.stocksnap.io/img-thumbs/280h/QQ9XWXDCFX.jpg" class="hidden-xs imgThumb" alt="Business">
+            <div class="caption">
+              <div class="row flex">
+                <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                  <p><span><strong>Dotmocracy</strong></span><br>Категорија: <span class="text-primary"><strong> Акција</strong></span></p>
+                     <span class="hiddenBr"><br></span>
+                </div>
+                <div class="col-md-3">
+                  <img src="sliki/6.png" class="img img-responsive img-circle imgGame">
+                </div>
+              </div>
+              <div class="row flexClock">
+                <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                  <i class="far fa-clock" id="clock"></i>
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-10">
+                  <p class="textBlogBottom"><strong>Времетраење</strong><br>5-30 minutes</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="thumbnail">
+                <a href="card17.html">
+                <img src="https://cdn.stocksnap.io/img-thumbs/280h/MUAZQUMFRY.jpg" class="hidden-xs imgThumb" alt="Business">
+                <div class="caption">
+                  <div class="row flex">
+                    <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                      <p><span><strong>Project Mid-way Evaluation</strong></span><br>Категорија: <span class="text-primary"><strong> Акција</strong></span></p>                       
+                    </div>
+                    <div class="col-md-3">
+                      <img src="sliki/4.png" class="img img-responsive img-circle imgGame">
+                    </div>
+                  </div>
+                  <div class="row flexClock ">
+                    <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                      <i class="far fa-clock" id="clock"></i>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                      <p class="textBlogBottom"><strong>Времетраење</strong><br>30-60 minutes</p>
+                  </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <a href="card18.html">
+            <img src="https://cdn.stocksnap.io/img-thumbs/280h/2VAK5JOBSH.jpg" class="hidden-xs imgThumb" alt="Business">
+            <div class="caption">
+              <div class="row flex">
+                <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                  <p><span><strong>Тhe 5 Whys</strong></span> <br>Категорија:  <span class="text-primary"><strong> Иновација</strong></span></p>
+                    <span class="hiddenBr"><br></span>
+                </div>
+                <div class="col-md-3">
+                  <img src="sliki/6 (1).png" class="img img-responsive img-circle imgGame">
+                </div>
+              </div>
+              <div class="row flexClock">
+                <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                  <i class="far fa-clock" id="clock"></i>
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-10">
+                  <p class="textBlogBottom"><strong>Времетраење</strong><br>30-60 minutes</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>   
+        </div>
+      </div>
+      </div> 
+    </div>
+
+    <!-- 2nd row cards -->
+    <div class="row">
+        <div class="container cont1">
+         <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="thumbnail">
+                  <a href="card1.html">
+                  <img src="https://cdn.stocksnap.io/img-thumbs/280h/RNT9303TNQ.jpg" class="hidden-xs imgThumb" alt="Business">
+                  <div class="caption">
+                    <div class="row flex">
+                      <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                        <p><span><strong>Future Trends</strong></span> <br>Категорија:  <span class="text-primary"><strong> Иновација</strong></span></p>
+                          <span class="hiddenBr"><br></span>
+                      </div>
+                      <div class="col-md-3">
+                        <img src="sliki/9.png" class="img img-responsive img-circle imgGame">
+                      </div>
+                    </div>
+                    <div class="row flexClock">
+                      <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                      <i class="far fa-clock" id="clock"></i>
+                      </div>
+                      <div class="col-md-10 col-sm-10 col-xs-10">
+                        <p class="textBlogBottom"><strong>Времетраење</strong><br>60-120 minutes</p>
+                    </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+           </div>
+           <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="thumbnail">
+                  <a href="card2.html">
+                  <img src="https://cdn.stocksnap.io/img-thumbs/280h/S3V8HTDRDS.jpg" class="hidden-xs imgThumb" alt="Business">
+                  <div class="caption">
+                    <div class="row flex">
+                      <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                        <p><span><strong>Story Building </strong></span> <br>Категорија:  <span class="text-primary"><strong> Иновација</strong></span></p>
+                          <span class="hiddenBr"><br></span>
+                      </div>
+                      <div class="col-md-3">
+                        <img src="sliki/3.png" class="img img-responsive img-circle imgGame">
+                      </div>
+                    </div>
+                    <div class="row flexClock">
+                      <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                      <i class="far fa-clock" id="clock"></i>
+                      </div>
+                      <div class="col-md-10 col-sm-10 col-xs-10">
+                        <p class="textBlogBottom"><strong>Времетраење</strong><br>30-60 minutes</p>
+                    </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+           </div>   
+           <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="thumbnail">
+                  <a href="card3.html">
+                  <img src="https://cdn.stocksnap.io/img-thumbs/280h/TO31C10FT4.jpg"class="hidden-xs imgThumb" alt="Business">
+                  <div class="caption">
+                    <div class="row flex">
+                      <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                        <p><span><strong>Тake a Stand </strong></span> <br>Категорија:  <span class="text-primary"><strong> Иновација</strong></span>
+                        </p><span class="hiddenBr"><br></span>
+                      </div>
+                      <div class="col-md-3">
+                        <img src="sliki/3 (1).png" class="img img-responsive img-circle imgGame">
+                      </div>
+                    </div>
+                    <div class="row flexClock">
+                      <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                        <i class="far fa-clock" id="clock"></i>
+                      </div>
+                      <div class="col-md-10 col-sm-10 col-xs-10">
+                        <p class="textBlogBottom"><strong>Времетраење</strong><br>60-120 minutes</p>
+                    </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+           </div>
+         </div>
+         </div> 
+       </div>
+       <!-- 3th row cards -->
+       <div class="row">
+          <div class="container cont1">
+           <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="thumbnail">
+                    <a href="card4.html">
+                    <img src="https://cdn.stocksnap.io/img-thumbs/280h/JCSBLY4RXT.jpg"class="hidden-xs imgThumb" alt="Business">
+                    <div class="caption">
+                      <div class="row flex">
+                        <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                          <p><span><strong>IDOARRT Meeting Design</strong></span> <br>Категорија:  <span class="text-primary"><strong> Акција</strong></span></p>
+                          </div>
+                        <div class="col-md-3">
+                          <img src="sliki/3 (2).png" class="img img-responsive img-circle imgGame">
+                        </div>
+                      </div>
+                      <div class="row flexClock">
+                        <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                          <i class="far fa-clock" id="clock"></i>
+                        </div>
+                        <div class="col-md-10 col-sm-10 col-xs-10">
+                          <p class="textBlogBottom"><strong>Времетраење</strong><br>5-30 minutes</p>
+                      </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="thumbnail">
+                    <a href="card5.html">
+                    <img src="https://cdn.stocksnap.io/img-thumbs/280h/RC88GFY2QT.jpg" class="hidden-xs imgThumb" alt="Business">
+                    <div class="caption">
+                      <div class="row flex">
+                        <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                          <p><span><strong>3 Action Steps </strong></span> <br>Категорија:  <span class="text-primary"><strong> Акција</strong></span></p>
+                            <span class="hiddenBr"><br></span>
+                        </div>
+                        <div class="col-md-3">
+                          <img src="sliki/04.png" class="img img-responsive img-circle imgGame">
+                        </div>
+                      </div>
+                      <div class="row flexClock">
+                        <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                          <i class="far fa-clock" id="clock"></i>
+                        </div>
+                        <div class="col-md-10 col-sm-10 col-xs-10">
+                          <p class="textBlogBottom"><strong>Времетраење</strong><br>120-240 minutes</p>
+                      </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+             </div>     
+             <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="thumbnail">
+                    <a href="card6.html">
+                    <img src="https://cdn.stocksnap.io/img-thumbs/280h/QM21MDOXMG.jpg" class="hidden-xs imgThumb" alt="Business">
+                    <div class="caption">
+                      <div class="row flex">
+                        <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                          <p><span><strong>Letter to Myself</strong></span><br>Категорија:  <span class="text-primary"><strong> Акција</strong></span></p>
+                            <span class="hiddenBr"><br></span>
+                        </div>
+                        <div class="col-md-3">
+                          <img src="sliki/5.png" class="img img-responsive img-circle imgGame">
+                        </div>
+                      </div>
+                      <div class="row flexClock">
+                        <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                          <i class="far fa-clock" id="clock"></i>
+                        </div>
+                        <div class="col-md-10 col-sm-10 col-xs-10">
+                          <p class="textBlogBottom"><strong>Времетраење</strong><br>5-30 minutes</p>
+                      </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+             </div>
+           </div>
+           </div> 
+         </div>
+         <!-- 4th row cards -->
+         <div class="row">
+            <div class="container cont1">
+             <div class="row">
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                  <div class="thumbnail">
+                      <a href="card7.html">
+                      <img src="https://cdn.stocksnap.io/img-thumbs/280h/YZTR1MJBMJ.jpg" class="hidden-xs imgThumb" alt="Business">
+                      <div class="caption">
+                        <div class="row flex">
+                          <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                            <p><span><strong>Аctive Listening </strong></span> <br>Категорија:  <span class="text-primary"><strong> Лидерство</strong></span></p> 
+                              <span class="hiddenBr"><br></span>
+                          </div>
+                          <div class="col-md-3">
+                            <img src="sliki/01.png" class="img img-responsive img-circle imgGame">
+                          </div>
+                        </div>
+                        <div class="row flexClock">
+                          <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                            <i class="far fa-clock" id="clock"></i>
+                          </div>
+                          <div class="col-md-10 col-sm-10 col-xs-10">
+                            <p class="textBlogBottom"><strong>Времетраење</strong><br>60-120 minutes</p>
+                        </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-4 col-xs-12">
+                  <div class="thumbnail">
+                      <a href="card8.html">
+                      <img src="https://cdn.stocksnap.io/img-thumbs/280h/LDAPFS34KR.jpg" class="hidden-xs imgThumb" alt="Business">
+                      <div class="caption">
+                        <div class="row flex">
+                          <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                            <p><span><strong>Feedback: I appreciate</strong></span> <br>Категорија:  <span class="text-primary"><strong> Лидерство</strong></span></p>
+                          </div>
+                          <div class="col-md-3">
+                            <img src="sliki/4 (1).png" class="img img-responsive img-circle imgGame">
+                          </div>
+                        </div>
+                        <div class="row flexClock">
+                          <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                            <i class="far fa-clock" id="clock"></i>
+                          </div>
+                          <div class="col-md-10 col-sm-10 col-xs-10">
+                            <p class="textBlogBottom"><strong>Времетраење</strong><br>60-120 minutes</p>
+                        </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+               </div>       
+               <div class="col-md-4 col-sm-4 col-xs-12">
+                  <div class="thumbnail">
+                      <a href="card9.html">
+                      <img src="https://cdn.stocksnap.io/img-thumbs/280h/FK7ZUQ3XM4.jpg"  class="hidden-xs imgThumb" alt="Business">
+                      <div class="caption">
+                        <div class="row flex">
+                          <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                            <p><span><strong> Explore your values</strong></span> <br>Категорија:  <span class="text-primary"><strong> Лидерство</strong></span></p>
+                          </div>
+                          <div class="col-md-3">
+                            <img src="sliki/11.png" class="img img-responsive img-circle imgGame">
+                          </div>
+                        </div>
+                        <div class="row flexClock">
+                          <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                            <i class="far fa-clock" id="clock"></i>
+                          </div>
+                          <div class="col-md-10 col-sm-10 col-xs-10">
+                            <p class="textBlogBottom"><strong>Времетраење</strong><br>60-120 minutes</p>
+                        </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+               </div>
+             </div>
+             </div> 
+           </div>
+           <!-- 5th row cards -->
+           <div class="row">
+              <div class="container cont1">
+               <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="card10.html">
+                        <img src="https://cdn.stocksnap.io/img-thumbs/280h/H8YLSQZGQK.jpg" class="hidden-xs imgThumb" alt="Business">
+                        <div class="caption">
+                          <div class="row flex">
+                            <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                              <p><span><strong>Reflection Individual</strong></span><br>Категорија: <span class="text-primary"><strong> Лидерство</strong></span></p>
+                            </div>
+                            <div class="col-md-3">
+                              <img src="sliki/06.png" class="img img-responsive img-circle imgGame">
+                            </div>
+                          </div>
+                          <div class="row flexClock">
+                            <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                              <i class="far fa-clock" id="clock"></i>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                              <p class="textBlogBottom"><strong>Времетраење</strong><br>30-60 minutes</p>
+                          </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                 </div>
+                 <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="card11.html">
+                        <img src="https://cdn.stocksnap.io/img-thumbs/280h/OM0UCS3RN8.jpg" class="hidden-xs imgThumb" alt="Business">
+                        <div class="caption">
+                          <div class="row flex">
+                            <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                              <p><span><strong>Back-turned Feedback</strong></span> <br>Категорија:  <span class="text-primary"><strong> Лидерство</strong></span></p>
+                            </div>
+                            <div class="col-md-3">
+                              <img src="sliki/10.png" class="img img-responsive img-circle imgGame">
+                            </div>
+                          </div>
+                          <div class="row flexClock">
+                            <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                              <i class="far fa-clock" id="clock"></i>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                              <p class="textBlogBottom"><strong>Времетраење</strong><br>60-120 minutes</p>
+                          </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                 </div>         
+                 <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="card12.html">
+                        <img src="https://cdn.stocksnap.io/img-thumbs/280h/E5BW2K6ZYK.jpg" class="hidden-xs imgThumb" alt="Business">
+                        <div class="caption">
+                          <div class="row flex">
+                            <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                              <p><span><strong>Conflict Responses</strong></span> <br>Категорија:  <span class="text-primary"><strong> Тим</strong></span></p> 
+                                <span class="hiddenBr"><br></span>
+                            </div>  
+                            <div class="col-md-3">
+                              <img src="sliki/2.png" class="img img-responsive img-circle imgGame">
+                            </div>
+                          </div>
+                          <div class="row flexClock">
+                            <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                              <i class="far fa-clock" id="clock"></i>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                              <p class="textBlogBottom"><strong>Времетраење</strong><br>60-120 minutes</p>
+                          </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                 </div>
+               </div>
+               </div> 
+             </div>
+
+         <!-- 6th row cards -->
+          <div class="row bgGradientBottom">
+            <div class="container cont1">
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="card13.html">
+                        <img src="https://cdn.stocksnap.io/img-thumbs/280h/II0IJP2AC7.jpg" class="hidden-xs imgThumb" alt="Business">
+                        <div class="caption">
+                          <div class="row flex">
+                            <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                              <p><span><strong>M-B Team Reflection</strong></span> <br>Категорија:  <span class="text-primary"><strong> Тим</strong></span></p>
+                                <span class="hiddenBr"><br></span>
+                            </div>
+                            <div class="col-md-3">
+                              <img src="sliki/6 (2).png" class="img img-responsive img-circle imgGame">
+                            </div>
+                          </div>
+                          <div class="row flexClock">
+                            <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                              <i class="far fa-clock" id="clock"></i>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                              <p class="textBlogBottom"><strong>Времетраење</strong><br>60-120 minutes</p>
+                          </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="card14.html">
+                        <img src="https://cdn.stocksnap.io/img-thumbs/280h/TK4PTANGSA.jpg" class="hidden-xs imgThumb" alt="Business">
+                        <div class="caption">
+                          <div class="row flex">
+                            <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                              <p><span><strong>Personal Presentations</strong></span> <br>Категорија:  <span class="text-primary"><strong> Тим</strong></span></p>
+                                <span class="hiddenBr"><br></span>
+                            </div>
+                            <div class="col-md-3">
+                              <img src="sliki/3 (3).png" class="img img-responsive img-circle imgGame">
+                            </div>
+                          </div>
+                          <div class="row flexClock">
+                            <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                              <i class="far fa-clock" id="clock"></i>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                              <p class="textBlogBottom"><strong>Времетраење</strong><br>60-240 minutes</p>
+                          </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                </div>        
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="card15.html">
+                          <img src="https://cdn.stocksnap.io/img-thumbs/280h/7PBFL1ERJT.jpg" class="hidden-xs imgThumb" alt="Business">
+                          <div class="caption">
+                            <div class="row flex">
+                              <div class="col-md-9 col-sm-9 col-xs-9 textGame">
+                                  <p><span><strong>Circles of influence</strong></span> <br>Категорија:  <span class="text-primary"><strong> Тим</strong></span></p>
+                                   <span class="hiddenBr"><br></span>
+                              </div>
+                              <div class="col-md-3">
+                                <img src="sliki/4 (2).png" class="img img-responsive img-circle imgGame">
+                              </div>
+                            </div>
+                            <div class="row flexClock">
+                              <div class="col-md-1 col-md-offset-0 col-sm-1 col-sm-offset-0 col-xs-1 col-xs-offset-0">
+                                <i class="far fa-clock" id="clock"></i>
+                              </div>
+                              <div class="col-md-10 col-sm-10 col-xs-10">
+                                <p class="textBlogBottom"><strong>Времетраење</strong><br>30-120 minutes</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                    </div>
+                </div>
+        
+              </div> 
+
+             <!-- this is last purple paragraph with text -->
+             <div class="row bgPurple"> 
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center landingBottom">
+                      <h1><STRONG>FUTURE-PROOF YOUR ORGANISATION</STRONG></h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center landingP">
+                        <p>Find out how to unlock progress in your business. Understand your current state, identify<br>
+                          opportunity areas and prepare to take charge of your organisation's future.</p>         
+                    </div>
+                  </div>         
+               <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+                    <a class="btn btn-lg landingBtn" href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank"><strong>TAKE THE ASSESMENT</strong></a>
+                 </div>
+               </div>               
+              </div>
+           </div> 
+
+        </div>
+      </div>
+
+          <!-- this is div for footer -->
+          <div class="row footer forflex ">
+              <div class="col-md-4 col-sm-12 col-xs-12 text-center contacts">              
+                <a href="https://brainster.co/about">About us</a>
+                <a href="https://brainster.co/contact">Contact</a>
+                <a href="https://www.facebook.com/pg/brainster.co/photos/">Gallery</a>
+              </div>
+              <div class="col-md-4 col-sm-12 col-xs-12 text-center"><a href="https://brainster.co/" target="_blank" class="text-center"> <img src="sliki/logo.png" class="navLogo footLogo"></a></div>           
+              <div class="col-md-4 col-sm-12 col-xs-12 text-center socialMedia"> 
+              <div class="icons">
+                <span id="linkedin"><a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i class="fab fa-linkedin-in"></i></a></span>
+                <span id="twitter"><a href="https://twitter.com/brainsterco?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></span>
+                <span id="fb"><a href="https://www.facebook.com/brainster.co/" target=_blank><i class="fab fa-facebook-f"></i></a></span>               
+              </div>
+              </div>           
+          </div> 
+
+    </div>          
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>  
+
+    <!-- this is for open/close sidenav -->
+  <script> 
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.querySelector('#main').style.display = 'block';
+      }  
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.querySelector('#main').style.display = 'none'; 
+      }
+  </script>
+
+</body>
+</html>
